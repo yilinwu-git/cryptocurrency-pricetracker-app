@@ -22,12 +22,12 @@ const Layout = ({children, title= "Crytocurrency Tracker" }) => {
                     >
                     <path
                         d='M217 125.5L446.5 5L666.5 125.5L446.5 250L217 125.5Z'
-                        stroke='#11FFFF'
+                        stroke='#91E3CE'
                         strokeWidth='8'
                     />
                     <path
                         d='M9 125.5L238.5 5L458.5 125.5L238.5 250L9 125.5Z'
-                        stroke='#11FFFF'
+                        stroke='#91E3CE'
                         strokeWidth='8'
                     />
                     <line
@@ -35,7 +35,7 @@ const Layout = ({children, title= "Crytocurrency Tracker" }) => {
                         y1='125'
                         x2='660'
                         y2='125'
-                        stroke='#11FFFF'
+                        stroke='#91E3CE'
                         strokeWidth='6'
                     />
                     <path
@@ -59,8 +59,8 @@ const Layout = ({children, title= "Crytocurrency Tracker" }) => {
                             y2='250'
                             gradientUnits='userSpaceOnUse'
                         >
-                            <stop stopColor='#06F0FF' />
-                            <stop offset='1' stopColor='#00FFFF' />
+                            <stop stopColor='#70e7c8' />
+                            <stop offset='1' stopColor='##70e7c8' />
                         </linearGradient>
                     </defs> 
                     </svg>

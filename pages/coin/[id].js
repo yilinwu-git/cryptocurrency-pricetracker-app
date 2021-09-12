@@ -14,8 +14,17 @@ const Coin = ({ coin }) => {
             <h1 className={styles.coin_name}>{coin.name}</h1>
             <p className={styles.coin_ticker}>{coin.symbol}</p>
             <p className={styles.coin_current}>
-                Current Price: £{coin.market_data.current_price.gbp}
+                Current Price: £{coin.market_data.current_price.gbp.toLocaleString()}
             </p>
+
+            <div className={styles.coin_action}>
+              <button className={`${styles.slide} ${styles.slide_from_left} ${styles.coin_button}`}>To Buy</button>
+              <button className={`${styles.slide} ${styles.slide_from_right} ${styles.coin_button}`}>To Sell</button>
+            </div>
+          
+
+
+
           </div>
         </div>
       </Layout>
